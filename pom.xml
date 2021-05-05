@@ -25,7 +25,7 @@
             <id>central</id>
             <url>https://mvnrepository.com/artifact/com.beust/klaxon</url>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
             <releases>
                 <enabled>false</enabled>

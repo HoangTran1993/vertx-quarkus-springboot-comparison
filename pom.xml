@@ -22,7 +22,7 @@
 
     <repositories>
         <repository>
-            <id>com.beust</id>
+            <id>central</id>
             <url>https://mvnrepository.com/artifact/com.beust/klaxon</url>
             <snapshots>
                 <enabled>true</enabled>
@@ -44,6 +44,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    https://mvnrepository.com/artifact/com.beust/klaxon/5.0.5/klaxon-5.0.5.pom   /com/beust/klaxon/5.0.5/klaxon-5.0.5.pom
 
     <dependencies>
         <dependency>

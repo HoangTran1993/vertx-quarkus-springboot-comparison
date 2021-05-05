@@ -25,10 +25,10 @@
             <id>central</id>
             <url>https://mvnrepository.com/artifact/com.beust/klaxon</url>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </snapshots>
             <releases>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </releases>
         </repository>
     </repositories>
@@ -44,7 +44,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

@@ -20,6 +20,19 @@
         <klaxon-version>5.0.5</klaxon-version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>com.beust</id>
+            <url>https://mvnrepository.com/artifact/com.beust/klaxon</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
     <dependencyManagement>
         <dependencies>
             <dependency>

@@ -23,7 +23,7 @@
     <repositories>
         <repository>
             <id>central</id>
-            <url>https://mvnrepository.com/artifact/com.beust/klaxon</url>
+            <url>https://jcenter.bintray.com/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>

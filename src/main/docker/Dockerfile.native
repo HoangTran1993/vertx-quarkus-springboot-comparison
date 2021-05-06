@@ -27,7 +27,7 @@ COPY --chown=1001:root target/*-runner /work/application
 EXPOSE 8082
 USER 1001
 
-CMD ["./application", "-Dquarkus.http.host=localhost"]
+CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]
 
 #FROM registry.access.redhat.com/ubi8/ubi-minimal as nativebuilder
 #RUN mkdir -p /tmp/ssl \

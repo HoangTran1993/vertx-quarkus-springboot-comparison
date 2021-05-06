@@ -17,6 +17,7 @@ class CarResource {
     @Produces("application/json")
     fun getCarsAsList() : Response {
         val blockingGet = DataService.getDataStream(0).toList().blockingGet()
+        println(blockingGet)
         val gson = Gson()
         return Response.ok(gson.toJson(blockingGet)).build()
     }

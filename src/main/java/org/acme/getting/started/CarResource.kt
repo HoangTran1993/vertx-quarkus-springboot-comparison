@@ -22,7 +22,6 @@ class CarResource {
         return Response.ok(gson.toJson(blockingGet)).build()
     }
 
-
     @GET
     @Path("/async1")
     @Produces(MediaType.APPLICATION_OCTET_STREAM)

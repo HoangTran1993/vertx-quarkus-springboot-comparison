@@ -24,12 +24,14 @@ class CarResource {
 
 
     @GET
+    @Path("/async1")
     @Produces(MediaType.APPLICATION_OCTET_STREAM)
     fun loadCarsAsOctetStream(): Response {
         return Response.ok().entity(responseStream).build()
     }
 
     @GET
+    @Path("/async2")
     @Produces("application/stream+json")
     fun loadCarsAsJsonStream(): Response {
         return Response.ok().entity(responseStream).build()

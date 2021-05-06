@@ -7,13 +7,13 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/getting-started .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus-getting-started .
 # docker buildx —-platform linux/amd64,linux/arm64,linux/arm/v7 -f src/main/docker/Dockerfile.native -t quarkus/getting-started .
 # docker buildx build --file Dockerfile.native --platform linux/amd64,linux/arm64,linux/arm/v7 --tag quarkus-getting-started-buildx --load ./
 #
 # Then run the container using:
 #
-# docker run -dit --name quarkus-getting-started -p 8082:8082 quarkus/getting-started
+# docker run -dit --name quarkus-getting-started -p 8082:8082 quarkus-getting-started
 # docker run -dit --name quarkus-getting-started -p 8082:8080 registry.unipass.vn/quarkus/getting-started
 #
 ###

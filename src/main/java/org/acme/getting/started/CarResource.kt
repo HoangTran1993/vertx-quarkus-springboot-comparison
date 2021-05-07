@@ -1,7 +1,6 @@
 package org.acme.getting.started
 
 import com.google.gson.Gson
-import org.acme.getting.started.model.Car
 import org.acme.getting.started.service.DataService
 import javax.inject.Inject
 import javax.ws.rs.core.MediaType
@@ -20,7 +19,8 @@ class CarResource {
     fun getCarsAsList() : Response {
         val blockingGet = DataService.getDataStream(0).toList().blockingGet()
         println(blockingGet)
-        return Response.ok(blockingGet).build()
+        val gson = Gson()
+        return Response.ok(gson.toJson(blockingGet)).build()
     }
 
     @GET
